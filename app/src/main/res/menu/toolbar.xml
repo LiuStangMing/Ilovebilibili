@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/id_main_content_sousuo"
+        android:icon="@drawable/image3"
+        android:title="sreach"
+        app:showAsAction="always"
+        >
+    </item>
+
+    <item
+        android:id="@+id/id_main_content_xiazai"
+        android:icon="@drawable/image2"
+        android:title="download"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/id_main_content_game"
+        android:icon="@drawable/image1"
+        android:title="game"
+        app:showAsAction="always">
+    </item>
+
+</menu>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@color/primary"
+    >
+
+    <RelativeLayout
+        android:background="@drawable/bili_drawerbg_logined"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/nav_userImage"
+            android:src="@drawable/userimage1"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/nav_btnEmail"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/image3"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/nav_btnMoon"
+            android:layout_toLeftOf="@+id/nav_btnEmail"
+            android:layout_marginRight="80dp"
+            android:background="@drawable/image1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="嚣张的蓝蓝"
+            android:id="@+id/nav_userName"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:layout_below="@+id/nav_userImage"/>
+        <LinearLayout
+            android:layout_below="@id/nav_userName"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="硬币:"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="15dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nav_YBcount"
+                android:text="120"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
